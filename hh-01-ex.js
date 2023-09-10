@@ -60,7 +60,7 @@ app.get('/:input', (req, res) => {
         };
 
         if(B === 3) {
-            console.log(`${count}번째 시도 3B! 입력값: ${input}`);
+            console.log(`${count}번째 시도 3B! 입력값: ${input} `);
             res.send(`${count}번째 시도 3B`);
         } else if(S === 3) {
             heart = false;
